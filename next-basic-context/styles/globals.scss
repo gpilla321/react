@@ -1,0 +1,57 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+        Helvetica Neue, sans-serif;
+    background: #ddd;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    display: block !important;
+    margin-inline: auto !important;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 0.25em;
+}
+
+header {
+    text-align: center;
+
+    .ant-menu {
+        justify-content: center;
+    }
+}
+
+main {
+    padding: 2em 0;
+}
+
+.ant-btn-primary {
+    width: 100%;
+}
+
+.product__actions {
+    padding: 1em 2em;
+    max-width: 500px;   
+    margin-inline: auto;
+
+    span {
+        margin-bottom: 1em;
+        display: block;
+    }
+
+    .ant-select {
+        margin-left: 1em !important;
+    }
+}
